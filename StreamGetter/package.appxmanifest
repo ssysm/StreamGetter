@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+  <Identity Name="582783e2-f603-46b6-9773-03e81d29e1dc" Version="1.0.0.0" Publisher="CN=admin" />
+  <mp:PhoneIdentity PhoneProductId="582783e2-f603-46b6-9773-03e81d29e1dc" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>StreamGetter</DisplayName>
+    <PublisherDisplayName>admin</PublisherDisplayName>
+    <Logo>images\storelogo1.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="index.html">
+      <uap:VisualElements DisplayName="流平台链接抓取工具" Description="StreamGetter" BackgroundColor="transparent" Square150x150Logo="images\Square150x150Logo1.png" Square44x44Logo="images\Square44x44Logo1.png">
+        <uap:DefaultTile Wide310x150Logo="images\Wide310x150Logo1.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="images\splashscreen1.png" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

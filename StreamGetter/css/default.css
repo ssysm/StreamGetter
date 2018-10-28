@@ -1,0 +1,16 @@
+﻿body {
+    /* 取消此评论以启用滚动和缩放
+  触摸操作: 操作;
+  */
+    overflow-y: scroll;
+    -webkit-user-select: text;
+}
+
+nav{
+    padding-left:5px;
+    padding-right:5px;
+}
+
+p{
+    font-size: 16px;
+}
