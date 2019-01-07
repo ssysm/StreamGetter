@@ -1,3 +1,5 @@
+# 本项目已经不再更新 请移步[StreamGetterV2](https://github.com/ssysm/StreamGetterv2)
+
 # StreamGetter
 流媒体链接抓取工具 使用UWP底层框架
 
